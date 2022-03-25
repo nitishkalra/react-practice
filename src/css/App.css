@@ -61,12 +61,17 @@ body {
   color: black;
 }
 .distributorSheet {
-  width: 100%;
+  width: 30%;
+  margin: auto;
   text-align: center;
   font-size: 2em;
-  min-height: 80vh;
+  min-height: 60vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px #e3724c;
   /* background-color: antiquewhite; */
   padding: 1%;
+  margin-top: 4%;
 }
 .distributorSheet h2 {
   padding: 10px;
