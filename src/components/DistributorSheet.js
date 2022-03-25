@@ -12,7 +12,8 @@ function DistributorSheet(){
     return <div className='distributorSheet'>
         <h2>{distributor.name}</h2>
         <p>price: {distributor.price}<br/>
-            Contact: {distributor.contact_person}
+            Contact: {distributor.contact_person} <br />
+            address: {distributor.address}
         </p>
 
         </div>
